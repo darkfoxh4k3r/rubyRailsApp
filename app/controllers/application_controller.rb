@@ -3,7 +3,12 @@ class ApplicationController < ActionController::Base
   
   
   def hello
-      render html: "Hello Mother Fucking World Niggers!!!!!"
+      render html: "hola mundo!"
+      
+  end
+  
+  def goodbye
+      render html: "Good bye faggot ass nigger!!!!"
       
   end
 end
